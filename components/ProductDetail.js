@@ -12,7 +12,7 @@ const ProductDetail = () => {
     useEffect (() => {
         const fetchProduct = async () => {
             try {
-                const response = await fetch(`https://fakestoreapi.com/products/${id}`);
+                const response = await fetch(`ここにはfake store apiを書く/${id}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
